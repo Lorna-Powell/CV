@@ -1,0 +1,173 @@
+/***********body*********/
+
+body
+{margin: 0;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+color: #40514E;
+line-height: 2;
+}
+
+h1
+{margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+color: #66BFBF;
+}
+
+h2{
+margin-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: #66BFBF;
+font-weight: normal;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+
+}
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+
+
+
+/*********************************containers*****************/
+.top-container
+{background-color: #EAF6F6;
+  position: relative;
+  padding-top:30px;
+}
+
+.about-me{
+background-color: white;
+position: relative;
+width:50%;
+margin:auto;
+}
+
+.skills{
+  background-color: white;
+  position: relative;
+  margin:auto;
+}
+.skill-row{
+  width: 60%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+color: #40514E;
+}
+
+.contact-me{
+  background-color: white;
+  width:50%;
+  margin: 50px auto 50px auto;
+  color: #40514E;
+ }
+.bottom-container{
+  background-color: #66BFBF;
+padding: 50px 0 20px;
+color:  #11999E;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/*********************************class*****************/
+
+.subtitle {
+  font-weight: bolder;
+}
+
+.top-cloud{
+  position: absolute;
+  right:250px;
+  top:30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom:350px;
+}
+.girl{
+  width:150px;
+  position: relative;
+  margin-top:50px;
+}
+
+.monitor-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.family-img{
+width: 25%;
+float: right;
+margin-left: 30px;
+}
+
+.facebook{
+  color: #11999E;
+}
+.linkedin{
+  color: #11999E;
+}
+.instagram{
+color: #11999E;
+  }
+
+.btn{
+  color: #11999E;
+}
+.Lorna-powell{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+  /************ id ********************/
+
+  .BUTTON_ADH {
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     color: #FFFFFF;
+     font-family: Arial;
+     font-size: 20px;
+     font-weight: 100;
+     padding: 38px;
+     background-color: #66BFBF;
+     border: solid #66BFBF 1px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+  }
+
+  .BUTTON_ADH:hover {
+     background: #11999E;
+     border: solid #11999E 1px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     text-decoration: none;
+  }
